@@ -26,5 +26,5 @@ jobs:
       - name: Deploy Lambda Function
         run: |
           aws lambda update-function-code \
-            --function-name arn:aws:lambda:ap-southeast-2:249133131535:function:TestCICDFunction \
+            --function-name arn:aws:lambda:ap-southeast-1:249133131535:function:TestCICDFunction \
             --zip-file fileb://code.zip
